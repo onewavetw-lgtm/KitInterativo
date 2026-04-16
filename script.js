@@ -61,13 +61,8 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     });
 
-    // 4. --- VSL INTERACTION ---
-    const vslTrigger = document.getElementById('vsl-trigger');
-    if (vslTrigger) {
-        vslTrigger.addEventListener('click', () => {
-            alert('🎥 Aqui começaria o seu vídeo de vendas (VSL)!\n\nVocê pode substituir a imagem por um player de vídeo do YouTube, Vimeo ou Wistia.');
-        });
-    }
+    // 4. --- VSL INTERACTION (Real Player Embedded) ---
+
 
     // 5. --- FAKE SALES POPUP ---
     const popup = document.getElementById('sales-popup');
